@@ -1,0 +1,36 @@
+.bi-clock-history{
+    font-size: 2em;
+}
+.section{
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.582),  rgba(0, 0, 0, 0.568)), url(/img/jacob.rpg.webp);
+}
+.img{
+    width: 100%;
+}
+
+.uno h2{
+    font-size: 4em ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.uno p{
+    font-size: 1.8em;
+    font-family: initial;
+}
+@media (max-width: 600px) {
+    .section h2, p{
+        text-align: center;
+    }
+    .section h2{
+        font-size: 2em;
+    }
+    .section p{
+        font-size: 1.3em;
+    }
+}
+@media (max-width: 990px) and (min-width: 601px){
+    .section h2, p{
+        text-align: center;
+    }
+}
